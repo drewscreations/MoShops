@@ -1,0 +1,7 @@
+{
+  "name": "Morgan_site_project",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

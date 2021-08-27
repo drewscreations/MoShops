@@ -1,0 +1,79 @@
+
+{
+    "Pictures": {
+        "img001" : {
+            "imagaLocation" : "pictures/0313.png",
+            "name" : "House Inside"
+        },
+        "img002" :  {
+            "imagaLocation" : "pictures/budgie_griffons.png",
+            "name" : "Two Budgie Griffons"
+        },
+        "img003" : {
+            "imagaLocation" : "pictures/cerberus_and_hades.png",
+            "name" : "Cerberus and Hades Portrate"
+        },
+        "img004" : {
+            "imagaLocation" : "pictures/doll_mushroom.png",
+            "name" : "Doll holding mushroom"
+        },
+        "img005" : {
+            "imagaLocation" : "pictures/dolls_moths.jpg",
+            "name" : "Four Moth Styled Caterpillers"
+        }, 
+        "img006" : {
+            "imagaLocation" : "pictures/hatchery.png",
+            "name" : "Egg game Hatchery Inside"
+        },
+        "img007" : {
+            "imagaLocation" : "pictures/home.png",
+            "name" : "Egg Game world map"
+        },
+        "img008" : {
+            "imagaLocation" : "pictures/sailor_moon.png",
+            "name" : "Sailor Moon"
+        }
+    },
+    "Picture Groups": {
+        "eggGame" : {
+            "img001" : true,
+            "img006" : true,
+            "img007" : true
+        }
+
+    },
+    "Portfolio" : {
+        "item001" : {
+            "name" : "Budgie Griffons",
+            "description" : "two cure little bidgies",
+            "creationDate" : "Feb 2020",
+            "refToPictures" : "img002"
+           
+        },
+        "cerberus01" : {
+            "name" : "Cerberus and hades",
+            "description" : "A brief description",
+            "creationDate" : "Jan 2020",
+            "refToPictures" : "img003"
+        },
+        "dollMushroom" : {
+            "name" : "Mushroom Doll",
+            "description" : "A mushroom description",
+            "creationDate" : "Mar 2020",
+            "refToPictures" : "img004"
+        },
+    "Inventory" : {
+        "item001" : {
+            "name" : "Moth Dolls",
+            "description" : "A sweet item",
+            "refToPictures" : "img005",
+            "price" : "$125"
+        },
+        "item002" : {
+            "name" : "Egg Game Assets",
+            "description" : "Make fan content",
+            "refToPictureGroups" : "eggGame",
+            "price" : "$110"
+        }
+    } 
+}

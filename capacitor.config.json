@@ -1,0 +1,13 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "Morgan_site_project",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

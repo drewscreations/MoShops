@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "${subpath}": {
+      ".write": "root.child('users').child(auth.uid).child('role').val() == 'admin'",
+      ".read": true
+    }
+  }
+}
